@@ -97,17 +97,21 @@
 # else:
 #     print("Вы пенсионер")
 
+#
+# is_raining = False
+# temp = -2
+#
+# if is_raining:
+#     if temp == 0:
+#         print("идет снег")
+#     else:
+#         print("идет дождь")
+# else:
+#     if temp > 0:
+#         print("осадков нет но тепло")
+#     else:
+#         print("осадков нет но холодно")
 
-is_raining = False
-temp = -2
-
-if is_raining:
-    if temp == 0:
-        print("идет снег")
-    else:
-        print("идет дождь")
-else:
-    if temp > 0:
-        print("осадков нет но тепло")
-    else:
-        print("осадков нет но холодно")
+a = "тыкцкцукцука"
+b = 100 if a == "сто" else 1000
+print(b)
